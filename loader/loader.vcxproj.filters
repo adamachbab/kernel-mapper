@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="third_party\oxorany\oxorany.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="third_party\oxorany\oxorany.hpp" />
+    <ClInclude Include="third_party\oxorany\include.hpp" />
+    <ClInclude Include="src\driver\service.hpp" />
+    <ClInclude Include="src\driver\driver.hpp" />
+    <ClInclude Include="src\driver\bytes.hpp" />
+    <ClInclude Include="src\common\log.hpp" />
+    <ClInclude Include="src\common\includes.hpp" />
+    <ClInclude Include="src\symbols\pdb.hpp" />
+    <ClInclude Include="src\common\types.hpp" />
+    <ClInclude Include="src\memory\paging.hpp" />
+    <ClInclude Include="src\memory\syscall.hpp" />
+    <ClInclude Include="src\symbols\exports.hpp" />
+    <ClInclude Include="src\memory\paging_split.hpp" />
+    <ClInclude Include="src\memory\map\dependency.hpp" />
+    <ClInclude Include="src\memory\map\allocator.hpp" />
+    <ClInclude Include="src\memory\map\map.hpp" />
+    <ClInclude Include="src\memory\map\entry.hpp" />
+  </ItemGroup>
+</Project>
