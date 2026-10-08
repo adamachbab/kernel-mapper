@@ -1,5 +1,9 @@
 # workspace
 
+<p align="center">
+  <img src="docs/loader.png" alt="loader.exe output after successfully mapping the driver" width="820">
+</p>
+
 A Windows x64 kernel **manual mapper** built as two Visual Studio projects: a user-mode **loader** that drives the mapping pipeline, and a minimal **KMDF driver** that acts as the kernel-side payload template.
 
 The loader resolves kernel symbols from Microsoft's public PDB servers, loads a signed helper driver via the Service Control Manager, discovers the system Directory Table Base (CR3) by walking physical memory, hijacks an SSDT entry to build a syscall bridge, resolves the kernel routines it needs, and finally manually maps a target `.sys` image into kernel space before transferring control to its entry point.
