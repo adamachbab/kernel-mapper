@@ -4,6 +4,15 @@
   <img src="docs/banner.svg" alt="kernel-mapper — Windows x64 kernel research" width="100%">
 </p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/platform-Windows-0078D6?style=flat&amp;logo=windows&amp;logoColor=white" alt="Platform: Windows">
+  <img src="https://img.shields.io/badge/architecture-x64-555555?style=flat" alt="Architecture: x64">
+  <img src="https://img.shields.io/badge/language-C%2B%2B-00599C?style=flat&amp;logo=cplusplus&amp;logoColor=white" alt="Language: C++">
+  <img src="https://img.shields.io/badge/Visual_Studio-2022-5C2D91?style=flat" alt="Visual Studio 2022">
+  <img src="https://img.shields.io/badge/toolchain-WDK-0078D6?style=flat" alt="Toolchain: Windows Driver Kit">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-3DA639?style=flat" alt="License: MIT"></a>
+</p>
+
 Windows x64 kernel manual-mapping research project with a user-mode loader and a kernel-side reference driver.
 
 > **Research software, not a production driver framework.** Use only in an isolated laboratory on systems you own or are explicitly authorized to test. Kernel-level operations can crash the system or cause data loss.
