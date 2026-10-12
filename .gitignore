@@ -21,6 +21,10 @@ ARM64/
 *.VC.db
 *.VC.VC.opendb
 
+# Share the default folder view for these projects
+!driver/driver.vcxproj.user
+!loader/loader.vcxproj.user
+
 # ---------------------------------------------------------------
 # Compiled binaries, intermediate files
 # ---------------------------------------------------------------
