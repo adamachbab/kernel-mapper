@@ -1,7 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="240" viewBox="0 0 1280 240" role="img" aria-labelledby="title description">
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="340" viewBox="0 0 1280 340" role="img" aria-labelledby="title description">
   <title id="title">kernel-mapper</title>
-  <desc id="description">Windows x64 kernel research project.</desc>
-  <rect width="1280" height="240" fill="#161b22"/>
-  <text x="640" y="116" text-anchor="middle" fill="#f0f6fc" font-family="Consolas, Liberation Mono, monospace" font-size="52" font-weight="600">kernel-mapper</text>
-  <text x="640" y="163" text-anchor="middle" fill="#9da7b3" font-family="Segoe UI, Arial, sans-serif" font-size="20">Windows x64 kernel research</text>
+  <desc id="description">Terminal-style banner for a Windows x64 kernel research project, with user-mode loader and reference driver components.</desc>
+  <defs>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#58a6ff"/>
+      <stop offset="1" stop-color="#bc8cff"/>
+    </linearGradient>
+    <clipPath id="window">
+      <rect x="1" y="1" width="1278" height="338" rx="14"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#window)">
+    <rect width="1280" height="340" fill="#0d1117"/>
+    <rect width="1280" height="48" fill="#161b22"/>
+    <path d="M0 48H1280" stroke="#30363d"/>
+    <circle cx="28" cy="24" r="5" fill="#f78166"/>
+    <circle cx="48" cy="24" r="5" fill="#d29922"/>
+    <circle cx="68" cy="24" r="5" fill="#3fb950"/>
+    <text x="640" y="30" text-anchor="middle" fill="#8b949e" font-family="Consolas, Liberation Mono, monospace" font-size="14">kernel-mapper / research workspace</text>
+    <g font-family="Consolas, Liberation Mono, monospace">
+      <text x="60" y="105" fill="#58a6ff" font-size="15">WINDOWS INTERNALS <tspan fill="#484f58">/</tspan> <tspan fill="#bc8cff">X64</tspan></text>
+      <text x="56" y="183" fill="#f0f6fc" font-size="58" font-weight="700" letter-spacing="-2">kernel-mapper<tspan fill="#58a6ff">_</tspan></text>
+      <text x="60" y="229" fill="#9da7b3" font-size="18">User-mode loader. Kernel-side reference driver.</text>
+      <rect x="60" y="255" width="560" height="3" fill="url(#accent)"/>
+      <text x="60" y="294" fill="#6e7681" font-size="14">C++ <tspan fill="#484f58">/</tspan> Visual Studio <tspan fill="#484f58">/</tspan> WDK</text>
+      <path d="M826 85V297" stroke="#21262d"/>
+      <text x="878" y="111" fill="#6e7681" font-size="14">// project layout</text>
+      <text x="878" y="158" fill="#c9d1d9" font-size="18">kernel-mapper/</text>
+      <text x="878" y="197" fill="#484f58" font-size="18">├── <tspan fill="#58a6ff">loader/</tspan></text>
+      <text x="878" y="236" fill="#484f58" font-size="18">├── <tspan fill="#bc8cff">driver/</tspan></text>
+      <text x="878" y="275" fill="#484f58" font-size="18">└── <tspan fill="#8b949e">docs/</tspan></text>
+    </g>
+  </g>
+  <rect x="1" y="1" width="1278" height="338" rx="14" fill="none" stroke="#30363d"/>
 </svg>
