@@ -80,6 +80,7 @@
     <OutDir>$(SolutionDir)build\output\release\$(ProjectName)\</OutDir>
     <IntDir>$(SolutionDir)build\intermediate\release\$(ProjectName)\</IntDir>
     <TargetName>$(ProjectName)</TargetName>
+    <EnableInf2cat>false</EnableInf2cat>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
     <DebuggerFlavor>DbgengKernelDebugger</DebuggerFlavor>
@@ -132,7 +133,7 @@
     <FilesToPackage Include="$(TargetPath)" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="src\main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
