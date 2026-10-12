@@ -62,4 +62,6 @@ This is a research codebase. No automated test suite or compatibility matrix is 
 
 ## License
 
-No repository-wide license has been declared. Public visibility alone does not grant permission to reuse the code. Third-party components retain their own licensing terms.
+Released under the [MIT License](LICENSE).
+
+Third-party components retain their original copyright notices and licensing terms. The vendored `oxorany` source includes its own MIT license notices, which must be preserved.
