@@ -1,10 +1,10 @@
 # kernel-mapper
 
-Windows x64 kernel manual-mapping research project with a user-mode loader and a kernel-side reference driver.
-
 <p align="center">
-  <img src="docs/loader.png" alt="Example loader console output" width="820">
+  <img src="docs/banner.svg" alt="kernel-mapper — Windows x64 kernel research" width="100%">
 </p>
+
+Windows x64 kernel manual-mapping research project with a user-mode loader and a kernel-side reference driver.
 
 > **Research software, not a production driver framework.** Use only in an isolated laboratory on systems you own or are explicitly authorized to test. Kernel-level operations can crash the system or cause data loss.
 
@@ -17,6 +17,14 @@ The repository separates the user-mode application, the reference driver and sup
 - **Diagnostics:** shared console logging under `loader/src/common/`.
 - **Project files:** a Visual Studio solution with Debug and Release x64 configurations.
 
+## Example output
+
+An illustrative screenshot of the loader console. Output may vary by environment; this is not a compatibility or safety guarantee.
+
+<p align="center">
+  <img src="docs/loader.png" alt="Example loader console output" width="820">
+</p>
+
 ## Repository layout
 
 ```text
@@ -26,6 +34,7 @@ kernel-mapper/
 ├── CONTRIBUTING.md
 ├── SECURITY.md
 ├── docs/
+│   ├── banner.svg
 │   ├── loader.png
 │   ├── development.md
 │   └── project-layout.md

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-labelledby="title description">
+  <title id="title">kernel-mapper</title>
+  <desc id="description">Windows x64 kernel research. User-mode loader and reference driver.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#152840"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#60a5fa"/>
+      <stop offset="1" stop-color="#67e8f9"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="320" rx="20" fill="url(#background)"/>
+  <g fill="none" stroke="#60a5fa" opacity="0.12">
+    <path d="M850 0V320M930 0V320M1010 0V320M1090 0V320M1170 0V320M1250 0V320"/>
+    <path d="M810 40H1280M810 120H1280M810 200H1280M810 280H1280"/>
+  </g>
+  <rect x="72" y="64" width="48" height="4" rx="2" fill="url(#accent)"/>
+  <text x="72" y="105" fill="#93c5fd" font-family="Segoe UI, Arial, sans-serif" font-size="15" letter-spacing="3">WINDOWS INTERNALS · X64</text>
+  <text x="68" y="181" fill="#f8fafc" font-family="Segoe UI, Arial, sans-serif" font-size="64" font-weight="700" letter-spacing="-2">kernel-mapper</text>
+  <text x="72" y="225" fill="#cbd5e1" font-family="Segoe UI, Arial, sans-serif" font-size="22">User-mode loader. Kernel-side reference driver.</text>
+  <text x="72" y="269" fill="#94a3b8" font-family="Segoe UI, Arial, sans-serif" font-size="14" letter-spacing="2">C++ / VISUAL STUDIO / WDK / RESEARCH</text>
+  <g transform="translate(1030 160)" fill="none" stroke="url(#accent)" stroke-width="2">
+    <rect x="-64" y="-64" width="128" height="128" rx="16" opacity="0.65"/>
+    <rect x="-34" y="-34" width="68" height="68" rx="8"/>
+    <path d="M-32-64V-86M0-64V-86M32-64V-86M-32 64V86M0 64V86M32 64V86M-64-32H-86M-64 0H-86M-64 32H-86M64-32H86M64 0H86M64 32H86" opacity="0.65"/>
+  </g>
+</svg>
